@@ -8,7 +8,7 @@ interface NewFormProps {
 const storageInputData = 'inputData';
 
 
-export const NewForm = (props?: NewFormProps) => {
+export const ContactPage = (props?: NewFormProps) => {
     const [displayError, setDisplayError] = useState<boolean>(false);
     const [inputValue, setInputValue] = useState<string>('empty value');
     const [errorMessage, setErrorMessage] = useState<string>('');
