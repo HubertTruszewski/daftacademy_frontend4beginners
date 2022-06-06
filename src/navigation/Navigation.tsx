@@ -26,6 +26,7 @@ export const Navigation = () => {
                 <Link className="App-link" to={`/${routesPaths.about}`}>About</Link>
                 <Link className="App-link" to={`/${routesPaths.contact}`}>Contact</Link>
                 <Link className="App-link" to={`/${routesPaths.mypage}`}>My page</Link>
+                <Link className="App-link" to={`/${routesPaths.rmcharacters}`}>RMCharacters</Link>
             </div>}
 
         </div>

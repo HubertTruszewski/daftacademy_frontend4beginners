@@ -1,5 +1,6 @@
 export const routesPaths = {
     contact: 'contact',
     about: 'about',
-    mypage: 'mypage'
+    mypage: 'mypage',
+    rmcharacters: 'rmcharacters'
 }
