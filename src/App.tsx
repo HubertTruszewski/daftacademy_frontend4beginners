@@ -1,4 +1,3 @@
-import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { AboutPage } from './AboutPage';
 import './App.css';
@@ -7,6 +6,7 @@ import { MyPage } from './MyPage';
 import {ContactPage} from './ContactPage'
 import { routesPaths } from './routes';
 import { Navigation } from './navigation';
+import { RMCharacterListPage } from './RMCharactersList';
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
           <Route path={`/${routesPaths.about}`} element={<AboutPage />} />
           <Route path={`/${routesPaths.contact}`} element={<ContactPage />} />
           <Route path={`/${routesPaths.mypage}`} element={<MyPage />} />
+          <Route path={`/${routesPaths.rmcharacters}`} element={<RMCharacterListPage />} />
         </Routes>
       </header>
     </div>
